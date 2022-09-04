@@ -1,0 +1,4 @@
+<option value="">---------</option>
+{% for restoran in restorans %}
+<option value="{{ restoran.pk }}">{{ restoran.name }}</option>
+{% endfor %}
