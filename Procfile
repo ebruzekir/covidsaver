@@ -1,0 +1,1 @@
+web: gunicorn covidsaverr2.wsgi --log-file -
